@@ -1,4 +1,5 @@
 import { Cormorant_Garamond, Plus_Jakarta_Sans } from "next/font/google";
+import type { ReactNode } from "react";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -20,7 +21,7 @@ export const metadata = {
   description: "This is my personal collection of books, novels, and stories worth keeping. Each book holds its own world, waiting to be discovered, remembered, and revisited.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="id" className={`${cormorant.variable} ${plusJakarta.variable}`}>
       <body>{children}</body>
