@@ -1301,13 +1301,7 @@ export default function BookshelfRoom() {
           <span>{lofiPlaying ? "Lo-Fi Aktif" : "Musik Lo-Fi"}</span>
         </button>
 
-        <button
-          type="button"
-          className={`dock-btn ${rainPlaying ? "active" : ""}`}
-          onClick={handleToggleRain}
-        >
-          🌧️ Hujan
-        </button>
+
 
         <button
           type="button"
