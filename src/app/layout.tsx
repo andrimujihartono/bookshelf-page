@@ -19,6 +19,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata = {
   title: "Welcome to my little bookshelf 🍃",
   description: "This is my personal collection of books, novels, and stories worth keeping. Each book holds its own world, waiting to be discovered, remembered, and revisited.",
+  icons:{
+    icon:"data:"
+  }
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

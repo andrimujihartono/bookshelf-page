@@ -499,6 +499,8 @@ export default function BookshelfRoom() {
                 </svg>
               </div>
 
+
+
               <div className="book-cluster">
                 <button
                   type="button"
@@ -652,24 +654,21 @@ export default function BookshelfRoom() {
                 </button>
               </div>
 
-              <div className="shelf-decor" style={{ margin: "0 6px" }}>
-                <svg width="46" height="54" viewBox="0 0 52 60">
-                  <rect
-                    x="4"
-                    y="4"
-                    width="44"
-                    height="52"
-                    rx="3"
-                    fill="#9c4a32"
-                    stroke="#4a2316"
-                    strokeWidth="2"
-                  />
-                  <rect x="10" y="10" width="32" height="40" fill="#e9dec8" />
-                  <circle cx="32" cy="20" r="4" fill="#d98a4e" />
-                  <polygon points="10,48 24,30 36,48" fill="#4f795c" />
-                  <polygon points="22,48 34,34 42,48" fill="#365942" />
-                </svg>
-              </div>
+              <figure className="merbabu-frame" aria-label="Lukisan Gunung Merbabu">
+                <div className="merbabu-mat">
+                  <div className="merbabu-canvas">
+                    <div className="merbabu-glow" />
+                    <div className="merbabu-peak-back" />
+                    <div className="merbabu-mist" />
+                    <div className="merbabu-savanna" />
+                    <div className="merbabu-foreground" />
+                    <div className="merbabu-glass" />
+                  </div>
+                  <figcaption className="merbabu-caption">Mt. Merbabu · 3.145 mdpl</figcaption>
+                </div>
+              </figure>
+
+             
 
               <div className="book-cluster">
                 <button
